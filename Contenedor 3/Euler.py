@@ -4,9 +4,9 @@ from tabulate import tabulate
 import sympy as sp
 
 def f(t, y):
-    return y - t**2 + 1
+    return t - y
 
-y0 = 0.5
+y0 = 2
 t0 = 0
 t1 = 2
 N = 10

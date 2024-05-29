@@ -3,7 +3,7 @@ from tabulate import tabulate
 import sympy as sp
 
 def f(t, y):
-    return y - t**2 + 1
+    return t - y
 
 def runge_kutta_4th_order(f, t0, y0, t_final, h):
     N = int((t_final - t0) / h) + 1
@@ -19,7 +19,7 @@ def runge_kutta_4th_order(f, t0, y0, t_final, h):
         y[i] = y[i-1] + (k1 + 2*k2 + 2*k3 + k4) / 6
     return t, y
 
-y0 = 0.5  # Condición inicial
+y0 = 2  # Condición inicial
 t0 = 0    # Punto inicial en el eje x
 t1 = 2    # Punto final en el eje x
 N = 10   # Número de puntos (incluyendo x0 y x1)

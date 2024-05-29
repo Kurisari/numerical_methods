@@ -10,11 +10,11 @@ def jacobi(A, b, x0, tol, max_iter):
             return x
     raise ValueError("El método no converge después de %d iteraciones" % max_iter)
 
-A = [[10, 2, 1],
-     [1, 5, 1],
-     [2, 3, 10]]
+A = [[10, 3, 1],
+     [5, -10, 3],
+     [1, 3, 10]]
 
-b = [7, -8, 6]
+b = [14, -5, 14]
 
 x0 = [0, 0, 0]
 

@@ -57,9 +57,9 @@ def format_eigenvector(i, eigenvector):
     formatted_vector = ", ".join(formatted_values)
     return f"Vector {i+1}: [{formatted_vector}]"
 
-A = np.array([[3, 2, 4], 
-              [2, 0, 2],
-              [4, 2, 3]]) 
+A = np.array([[5, -2, 0], 
+              [-2, 3, -1],
+              [0, -1, 1]]) 
 
 pol = leverrier_faddeev_poly(A)
 formatted_polynomial = format_characteristic_polynomial(pol.coefficients)

@@ -1,11 +1,12 @@
 import math
 import sympy as sym
+import numpy as np
 
 x = sym.Symbol('x')
 # fx = (2*x**3) - (4*sym.log(x))
 # fx = 2**x
-fx = x**2
-x0 = 2.01
+fx = math.log(x)
+x0 = 2.0
 grado = 500
 n = grado + 1
 
