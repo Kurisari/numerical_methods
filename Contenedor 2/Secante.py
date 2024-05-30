@@ -1,7 +1,7 @@
 import sympy as sp
 
 def funcion(x):
-    return x**3 + x + 16
+    return sp.exp(x)+x**3+2*x**2+10*x-20
 
 def secante(x0, x1, tol, max_iter):
     iteracion = 0

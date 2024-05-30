@@ -3,7 +3,7 @@ import sympy as sp
 
 def PolTaylor(a, n, x_val):
     x = sp.symbols('x')
-    f = (x**3)*sp.log(x)
+    f = sp.exp(x)
     F = f
     T = f.subs(x, a)
     

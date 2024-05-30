@@ -2,7 +2,7 @@ import sympy as sp
 from tabulate import tabulate
 
 def funcion(x):
-    return sp.ln(x)
+    return sp.exp(x)+x**3+2*x**2+10*x-20
 
 def diferencias_divididas_newton(x_vals, y_vals=None, func=None):
     if func is not None:

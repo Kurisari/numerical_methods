@@ -57,11 +57,11 @@ def characteristic_polynomial(A, v, k):
 
 os.system('cls')
 
-A = np.array([[5, -2, 0], 
-              [-2, 3, -1],
-              [0, -1, 1]])
+A = np.array([[5, -7, 7], 
+              [4, -3, 4],
+              [4, -1, 2]])
 
-v = np.array([1, 0, 0])
+v = np.array([0, 0, 0])
 
 k = 5
 

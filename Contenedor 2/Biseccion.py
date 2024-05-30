@@ -1,7 +1,7 @@
 import sympy as sp
 
 def funcion(x):
-    return 5*x**3 - 5*x**2 + 6*x - 2
+    return sp.exp(x)+x**3+2*x**2+10*x-20
 
 def biseccion(a, b, tolerancia, max_iteracion):
     x = sp.Symbol('x')

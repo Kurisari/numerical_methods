@@ -4,11 +4,11 @@ from tabulate import tabulate
 import sympy as sp
 
 def f(t, y):
-    return t - y
+    return 2*t - 3*y + 1
 
-y0 = 2
-t0 = 0
-t1 = 2
+y0 = 5
+t0 = 2
+t1 = 5
 N = 10
 
 h = (t1 - t0) / N

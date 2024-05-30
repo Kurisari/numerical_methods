@@ -1,7 +1,7 @@
 import sympy as sp
 
 def funcion(x):
-    return -x**2 + 2*x + 1
+    return sp.exp(x)+x**3+2*x**2+10*x-20
 
 def newton_raphson(funcion, x0, tol, max_iter):
     x = sp.Symbol('x')
